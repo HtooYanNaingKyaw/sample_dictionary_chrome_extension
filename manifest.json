@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Sample Dictionary ",
+	"description": "This extension is to save a simple note list like to do",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"storage"
+	]
+}
